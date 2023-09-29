@@ -4,8 +4,8 @@ import React from "react";
 function Footer() {
   return (
     
-    <div class="bottom">
-      <div class="center">
+    <div className="bottom">
+      <div className="center">
           All rights reserved &copy; Todd Hetrick
       </div>
     </div>

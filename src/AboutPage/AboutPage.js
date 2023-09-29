@@ -4,7 +4,7 @@ import React from "react";
 function AboutPage() {
   return (
     <div className="AboutPage">
-       <div class="container center">
+       <div className="container center">
         <article>
             <h1>About the Page</h1>
             <p>
