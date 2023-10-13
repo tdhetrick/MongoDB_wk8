@@ -156,7 +156,7 @@
 <script>
     var chartdata;
     var chartlabels;
-    var colors;
+    var chartcolors;
 
 
     axios.get('./budget')
@@ -164,14 +164,14 @@
             console.log(response);
             chartlabels = response.data.map(item => item.title);
             chartdata = response.data.map(item => item.budget);
-            colors = response.data.map(item => item.color);
+            chartcolors = response.data.map(item => item.color);
 
             bchart();
 
             d3data = chartlabels.map(function(label, index){
                     return {
                         label: label,
-                        value: chartdata[index]
+                        value: chartdata[index]                       
                     }
                 }
             );
@@ -192,7 +192,7 @@
                     datasets: [{
                         data: chartdata,
                         borderWidth: 1,
-                        backgroundColor: colors
+                        backgroundColor: chartcolors
                     }]
                 },
                 options: {

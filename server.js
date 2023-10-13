@@ -28,7 +28,8 @@ const budgetSchema = new mongoose.Schema({
     color:{
         type: String,
         required: true,
-        unique: true
+        unique: true,
+        match: [/^#[0-9A-Fa-f]{6}$/, 'Invalid HEX color.']
     }
 
 }, { collection: 'budget' }); 
