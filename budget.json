@@ -1,0 +1,40 @@
+{
+    "theBudget": [
+        {
+            "title": "Eating out",
+            "budget": 250,
+            "color": "#FF5733"
+        },
+        {
+           "title": "Rent",
+            "budget": 2750,
+            "color": "#FDC133"
+        },
+        {
+            "title": "Grocery",
+            "budget": 500,
+            "color": "#DBFF33"
+        },
+        {
+            "title": "Utilities",
+            "budget": 200,
+            "color": "#FF5733"
+        },
+        {
+            "title": "Medical",
+            "budget": 300,
+            "color": "#4CFF33"
+        },
+        {
+            "title": "Pet Care",
+            "budget": 100,
+            "color": "#33FF99"
+        },
+        {
+            "title": "Entertainment",
+            "budget": 200,
+            "color": "#33C6FF"
+        }
+    ]
+}
+
